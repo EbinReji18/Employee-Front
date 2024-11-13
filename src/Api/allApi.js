@@ -1,8 +1,8 @@
 import axios from "axios";
 
 
-const base_url="http://employee-server-86yr.onrender.com"
-
+const base_url="https://employee-server-86yr.onrender.com"
+// const base_url="http://localhost:3000"
 export const addEmployee=async(data)=>{
     return await axios.post(`${base_url}/addemp`,data)
 }
